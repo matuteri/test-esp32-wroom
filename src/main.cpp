@@ -29,6 +29,7 @@ void loop() {
   analogWrite(LED_BUILTIN, a);   // turn the LED on (HIGH is the voltage level)
   analogWrite(14, a);   // turn the LED on (HIGH is the voltage level)
   delay(30);
+  dalay(10);  // aggiunto solo per verificare funzionalità git
   a = a + b;
   if (a > 255 )
     b = -1 ;
